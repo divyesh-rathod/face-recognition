@@ -8,7 +8,7 @@ const ImageLinkForm = ({ onChangeEvent,onButtonChange }) => {
        { 'Hey this brain will detect number of faces in the picture given to it'}
       </p>
       <div className='center'>
-           <div className=' form pa4 br3 shadow-5 '>
+           <div className=' form pa4 br3 '>
            <input className='f4 pa2 w-60 ' type={Text}
                   onChange={onChangeEvent}
            />
